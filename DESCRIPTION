@@ -1,0 +1,13 @@
+Package: package
+Title: Primeiro Pacote
+Version: 0.1.0
+Authors@R: 
+    person("Sóstenes", "Jerônimo Da Silva", , "sjs.jeronimo99@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5981-4266"))
+Description: This package is an introduction to creating your own R package. 
+    With this step-by-step guide, you'll be able to create your custom 
+    R package in no time..
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
