@@ -1,0 +1,23 @@
+---
+title: "Descrição do package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+##  Importando o pacote
+
+```{r setup}
+library(package)
+```
+
+Este pacote serve para .....
