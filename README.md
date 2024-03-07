@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/sostenes767/package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sostenes767/package/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/sostenes767/package/branch/master/graph/badge.svg)](https://app.codecov.io/gh/sostenes767/package?branch=master)
+![Codecov](https://img.shields.io/codecov/c/github/sostenes767/package)
 <!-- badges: end -->
 
 O objetivo do package é construir um pacote simples com algumas funções
