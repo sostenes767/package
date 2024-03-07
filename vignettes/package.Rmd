@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-##  Importando o pacote
+## Importando o pacote
 
 ```{r setup}
 library(package)
