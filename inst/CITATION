@@ -1,8 +1,8 @@
 bibentry(
   bibtype  = "Article",
   title    = "Meu primeiro pacote",
-  author   = "Sóstenes",
-  journal  = "",
+  author   = "Sostenes",
+  journal  = "journal",
   year     = "2024",
   volume   = "1",
   number   = "",
