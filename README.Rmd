@@ -35,7 +35,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(package)
-## Basicos exemplos do pacote
+## Básicos exemplos do pacote
 
 #Função somar
 somar(10,2)

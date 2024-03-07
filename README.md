@@ -30,7 +30,7 @@ library(package)
 #> The following object is masked from 'package:datasets':
 #> 
 #>     mtcars
-## Basicos exemplos do pacote
+## Básicos exemplos do pacote
 
 #Função somar
 somar(10,2)
