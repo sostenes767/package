@@ -9,6 +9,7 @@
 [![Codecov test
 coverage](https://codecov.io/gh/sostenes767/package/branch/master/graph/badge.svg)](https://app.codecov.io/gh/sostenes767/package?branch=master)
 ![Codecov](https://img.shields.io/codecov/c/github/sostenes767/package)
+[![ORCiD:0000-0002-5981-4266](https://img.shields.io/badge/ORCiD-0000--0002--5981--4266-A6CE39?logo=ORCID&colorIcon.svg)](https://orcid.org/0000-0002-5981-4266)
 <!-- badges: end -->
 
 O objetivo do package é construir um pacote simples com algumas funções
