@@ -20,4 +20,21 @@ knitr::opts_chunk$set(
 library(package)
 ```
 
-Este pacote serve para .....
+### Função graf_bar
+
+Apresentas-se uma função em R que facilita a criação de gráficos ideais para relatórios estatísticos. Com esta função, é possível visualizar de forma clara e concisa as relações entre duas variáveis categóricas, fornecendo insights valiosos para análises estatísticas. Desenvolvida para atender às necessidades específicas de quem busca gráficos informativos e visualmente atraentes, esta função representa uma ferramenta poderosa para a geração de relatórios estatísticos impactantes e de alta qualidade.
+
+Vamos utilizar o banco dados Diamond do pacote ggplot2 para exemplificar.
+
+```{r}
+df_test <- ggplot2::diamonds$clarity
+
+graf_bar(df_test, xlab = "Clarity", ylab = "Porcentagem"  )
+```
+
+Este gráfico é bem auto explicativo, mas caso o interesse seja um gráfico na horinzontal, que é bastante comum quando o nome das categorias são extensos ou até mudar a cor das barras. Além disso, podemos ordenar as barras caso seja do interesse.
+
+```{r}
+graf_bar(df_test, xlab = "Clarity", ylab = "Porcentagem",
+        color = "#00feff", ordenada = TRUE, horizontal = TRUE)
+```
