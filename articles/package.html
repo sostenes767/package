@@ -91,9 +91,36 @@
 <span><span class="co">#&gt; The following object is masked from 'package:datasets':</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt;     mtcars</span></span></code></pre></div>
-<p>Este pacote serve para …..</p>
+<div class="section level3">
+<h3 id="função-graf_bar">Função graf_bar<a class="anchor" aria-label="anchor" href="#fun%C3%A7%C3%A3o-graf_bar"></a>
+</h3>
+<p>Apresentas-se uma função em R que facilita a criação de gráficos
+ideais para relatórios estatísticos. Com esta função, é possível
+visualizar de forma clara e concisa as relações entre duas variáveis
+categóricas, fornecendo insights valiosos para análises estatísticas.
+Desenvolvida para atender às necessidades específicas de quem busca
+gráficos informativos e visualmente atraentes, esta função representa
+uma ferramenta poderosa para a geração de relatórios estatísticos
+impactantes e de alta qualidade.</p>
+<p>Vamos utilizar o banco dados Diamond do pacote ggplot2 para
+exemplificar.</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">df_test</span> <span class="op">&lt;-</span> <span class="fu">ggplot2</span><span class="fu">::</span><span class="va"><a href="https://ggplot2.tidyverse.org/reference/diamonds.html" class="external-link">diamonds</a></span><span class="op">$</span><span class="va">clarity</span></span>
+<span></span>
+<span><span class="fu"><a href="../reference/graf_bar.html">graf_bar</a></span><span class="op">(</span><span class="va">df_test</span>, xlab <span class="op">=</span> <span class="st">"Clarity"</span>, ylab <span class="op">=</span> <span class="st">"Porcentagem"</span>  <span class="op">)</span></span></code></pre></div>
+<p><img src="package_files/figure-html/unnamed-chunk-2-1.png" width="700"></p>
+<p>Este gráfico é bem auto explicativo, mas caso o interesse seja um
+gráfico na horinzontal, que é bastante comum quando o nome das
+categorias são extensos ou até mudar a cor das barras. Além disso,
+podemos ordenar as barras caso seja do interesse.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/graf_bar.html">graf_bar</a></span><span class="op">(</span><span class="va">df_test</span>, xlab <span class="op">=</span> <span class="st">"Clarity"</span>, ylab <span class="op">=</span> <span class="st">"Porcentagem"</span>,</span>
+<span>        color <span class="op">=</span> <span class="st">"#00feff"</span>, ordenada <span class="op">=</span> <span class="cn">TRUE</span>, horizontal <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
+<p><img src="package_files/figure-html/unnamed-chunk-3-1.png" width="700"></p>
 </div>
-  </main>
+</div>
+  </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
+    </nav></aside>
 </div>
 
 
